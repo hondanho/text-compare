@@ -3,8 +3,8 @@
 #    Build image:
 #    docker build -t hondanho/text-compare-angular .
 #
-#    Run image (on localhost:12010):
-#    docker run -d --name text-compare -p 12010:80 hondanho/text-compare-angular
+#    Run image (on localhost:8008):
+#    docker run -d --name text-compare -p 8008:8008 hondanho/text-compare-angular
 #
 #    Run image as virtual host (read more: https://github.com/nginx-proxy/nginx-proxy):
 #    docker run -e VIRTUAL_HOST=text-compare.your-domain.com --name text-compare hondanho/text-compare-angular

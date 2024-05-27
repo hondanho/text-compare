@@ -21,7 +21,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 sh 'docker rm $(docker stop $(docker ps -a -q --filter="name=text-compare"))'
-                sh 'docker run --name text-compare -p 12010:80 -d hondanho/text-compare'
+                sh 'docker run --name text-compare -p 8008:8008 -d hondanho/text-compare'
             }
         }
     }

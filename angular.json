@@ -90,7 +90,7 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
             "browserTarget": "text-compare-angular:build",
-            "port": 12010
+            "port": 8008
           },
           "configurations": {
             "nas": {
