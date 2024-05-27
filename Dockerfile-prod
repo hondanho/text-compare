@@ -1,10 +1,10 @@
 # Usage:
 #
 #    Build image:
-#    docker build -t jojozhuang/text-compare-angular-prod -f Dockerfile-prod .
+#    docker build -t hondanho/text-compare-angular-prod -f Dockerfile-prod .
 #
 #    Push to docker hub
-#    docker push jojozhuang/text-compare-angular-prod
+#    docker push hondanho/text-compare-angular-prod
 
 # Stage 1, based on Node.js, to build and compile Angular
 

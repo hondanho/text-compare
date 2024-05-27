@@ -6,5 +6,5 @@ configmap:
     ENV_NAME: 'NAS'
 
 image:
-  name: jojozhuang/text-compare-angular-nas
+  name: hondanho/text-compare-angular-nas
   tag: latest

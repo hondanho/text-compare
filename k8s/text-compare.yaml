@@ -25,7 +25,7 @@ spec:
     spec:
       containers:
       - name: text-compare
-        image: jojozhuang/text-compare-angular
+        image: hondanho/text-compare-angular
         ports:
           - containerPort: 80
 ---

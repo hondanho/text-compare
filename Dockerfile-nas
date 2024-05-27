@@ -1,10 +1,10 @@
 # Usage:
 #
 #    Build image:
-#    docker build -t jojozhuang/text-compare-angular-nas -f Dockerfile-nas .
+#    docker build -t hondanho/text-compare-angular-nas -f Dockerfile-nas .
 #
 #    Push to docker hub
-#    docker push jojozhuang/text-compare-angular-nas
+#    docker push hondanho/text-compare-angular-nas
 
 # Stage 1, based on Node.js, to build and compile Angular
 

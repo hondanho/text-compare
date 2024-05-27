@@ -6,5 +6,5 @@ configmap:
     ENV_NAME: 'PROD'
 
 image:
-  name: jojozhuang/text-compare-angular-prod
+  name: hondanho/text-compare-angular-prod
   tag: latest
